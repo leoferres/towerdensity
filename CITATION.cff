@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Systematic biases in mobile phone mobility data from heterogeneous tower density"
+type: article
+authors:
+  - family-names: Ferres
+    given-names: Leo
+    email: lferres@udd.cl
+    affiliation: "Universidad del Desarrollo; ISI Foundation"
+    orcid: "https://orcid.org/0000-0002-9861-696X"
+  - family-names: Elejalde
+    given-names: Erick
+    email: elejalde@l3s.uni-hannover.de
+    affiliation: "L3S Research Center, Leibniz University Hannover"
+keywords:
+  - mobile phone data
+  - tower density bias
+  - inverse probability weighting
+  - small area estimation
+  - human mobility
+  - H3 hexagonal grid
+  - sector geometry
+license: MIT
+repository-code: "https://github.com/leoferres/towerdensity"
