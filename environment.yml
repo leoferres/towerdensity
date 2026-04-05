@@ -1,0 +1,43 @@
+name: mobilens
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  # Core
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+
+  # Geospatial
+  - geopandas
+  - shapely
+  - fiona
+  - pyproj
+  - h3-py
+  - osmnx
+
+  # Parquet / IO
+  - pyarrow
+  - fastparquet
+
+  # Visualisation
+  - matplotlib
+  - seaborn
+  - contextily     # basemap tiles for static maps
+  - folium         # interactive maps
+
+  # Statistics
+  - statsmodels
+
+  # Notebooks
+  - jupyterlab
+  - ipywidgets
+  - tqdm
+
+  # Utilities
+  - pip
+  - pip:
+    - h3           # h3-py sometimes needs this alias
